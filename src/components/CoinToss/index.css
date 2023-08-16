@@ -1,0 +1,62 @@
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #475569;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.heads-or-tails {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.image {
+  height: 190px;
+  width: 200px;
+}
+
+.toss-button {
+  border-radius: 5px;
+  font-family: 'Roboto';
+  height: 35px;
+  width: 90px;
+  font-size: 12px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+  outline: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
